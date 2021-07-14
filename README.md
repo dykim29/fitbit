@@ -1,4 +1,4 @@
 # Fitbit data
 
-Download my fitbit data and analyse it
+This repo downloads my Fitbit data and processes it, for analysis.
 
