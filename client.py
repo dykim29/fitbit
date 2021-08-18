@@ -5,7 +5,7 @@ import fitbit
 import gather_keys_oauth2 as Oauth2
 
 
-def get_client():
+def get_client() -> fitbit.Fitbit:
     with open('secret_config.json') as json_file:
         data = json.load(json_file)
     CLIENT_ID = data['client_id']
